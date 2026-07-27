@@ -1,14 +1,1 @@
-$ cd ~/practice
-printf 'hello\nSECRET: masar is fun\nbye\n' > docs/mixed.txt
-grep SECRET docs/mixed.txt
-echo 'masar is fun' > found-secret.txt
-cat found-secret.txt
-bash: cd: /c/Users/Admin/practice: No such file or directory
-bash: docs/mixed.txt: No such file or directory
-grep: docs/mixed.txt: No such file or directory
 masar is fun
-$ grep
-Usage: grep [OPTION]... PATTERN [FILE]...
-Try 'grep --help' for more information.
-
-
